@@ -1,0 +1,21 @@
+{
+    presonal_information:{
+        name:"Prajakta Kulkarni"
+        Address:"A-10 Ramyanagari,bibvewadi, Pune - 37"
+        Phone:"9922111481"
+        Date_of_birth:"23-11-1983"
+    }
+    eduction:{
+        edu1:"MAsters Of computer application"
+        university1:"Pune university"
+        percentage1:""
+
+    }
+    work_experiance:{
+
+    }
+    summary:{
+
+    }
+}
+
