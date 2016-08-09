@@ -6,16 +6,61 @@
         Date_of_birth:"23-11-1983"
     }
     eduction:{
-        edu1:"MAsters Of computer application"
-        university1:"Pune university"
-        percentage1:""
-
+        [
+            {
+                edu:"MAsters Of computer application"
+                university:"Pune university"
+                percentage:""
+            },
+            {
+                edu:"Bachlors Of computer application"
+                university:"Pune university"
+                percentage:""
+            }
+        ]
     }
     work_experiance:{
+        [
+            {
+                company_name:"Gameloft"
+                start_date:
+                end_date:
 
+            },
+            {
+                company_name:"Ubisoft"
+                start_date:
+                end_date:
+            },
+            {
+                company_name:"Arkenea"
+                start_date:
+                end_date:
+            },
+            {
+                company_name:"Quadlogix"
+                start_date:
+                end_date:
+            },
+            {
+                company_name:"Tagrem"
+                start_date:
+                end_date:
+            },
+            {
+                company_name:"Mirum Agency"
+                start_date:
+                end_date:
+            }
+        ]
     }
     summary:{
 
+    }
+    Projects:{
+        [
+
+        ]
     }
 }
 
