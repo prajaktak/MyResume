@@ -10,7 +10,7 @@
 		A13552DE1D43AF4E009AD57D /* ResumeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13552DD1D43AF4E009AD57D /* ResumeViewController.m */; };
 		A13552E11D43AF85009AD57D /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13552E01D43AF85009AD57D /* AboutViewController.m */; };
 		A13552E41D43AFB1009AD57D /* ContactMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13552E31D43AFB1009AD57D /* ContactMeViewController.m */; };
-		A1F648851D59812E00684891 /* JSON in Resources */ = {isa = PBXBuildFile; fileRef = A1F648841D59812E00684891 /* JSON */; };
+		A1F648871D5FB07700684891 /* ResumeJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = A1F648861D5FB07700684891 /* ResumeJSON.json */; };
 		F969662B1D0216B200D1E016 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F969662A1D0216B200D1E016 /* main.m */; };
 		F969662E1D0216B200D1E016 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F969662D1D0216B200D1E016 /* AppDelegate.m */; };
 		F96966311D0216B200D1E016 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96966301D0216B200D1E016 /* ViewController.m */; };
@@ -47,7 +47,7 @@
 		A13552E01D43AF85009AD57D /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		A13552E21D43AFB1009AD57D /* ContactMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactMeViewController.h; sourceTree = "<group>"; };
 		A13552E31D43AFB1009AD57D /* ContactMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactMeViewController.m; sourceTree = "<group>"; };
-		A1F648841D59812E00684891 /* JSON */ = {isa = PBXFileReference; lastKnownFileType = folder; path = JSON; sourceTree = "<group>"; };
+		A1F648861D5FB07700684891 /* ResumeJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ResumeJSON.json; path = JSON/ResumeJSON.json; sourceTree = "<group>"; };
 		F96966261D0216B200D1E016 /* MyResume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyResume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F969662A1D0216B200D1E016 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F969662C1D0216B200D1E016 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 		F96966281D0216B200D1E016 /* MyResume */ = {
 			isa = PBXGroup;
 			children = (
-				A1F648841D59812E00684891 /* JSON */,
+				A1F648861D5FB07700684891 /* ResumeJSON.json */,
 				F969662C1D0216B200D1E016 /* AppDelegate.h */,
 				F969662D1D0216B200D1E016 /* AppDelegate.m */,
 				F969662F1D0216B200D1E016 /* ViewController.h */,
@@ -271,7 +271,7 @@
 			files = (
 				F969663C1D0216B200D1E016 /* LaunchScreen.storyboard in Resources */,
 				F96966391D0216B200D1E016 /* Assets.xcassets in Resources */,
-				A1F648851D59812E00684891 /* JSON in Resources */,
+				A1F648871D5FB07700684891 /* ResumeJSON.json in Resources */,
 				F96966341D0216B200D1E016 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,66 +1,61 @@
 {
-    presonal_information:{
-        name:"Prajakta Kulkarni"
-        Address:"A-10 Ramyanagari,bibvewadi, Pune - 37"
-        Phone:"9922111481"
-        Date_of_birth:"23-11-1983"
-    }
-    eduction:{
-        [
+    "name":"Prajakta Kulkarni",
+    "presonal_information":{
+        "name":"Prajakta Kulkarni",
+        "Address":"A10 Ramyanagari,bibvewadi, Pune 37",
+        "Phone":"9922111481",
+        "Date_of_birth":"23-11-1983"
+    },
+    "eduction":[
             {
-                edu:"MAsters Of computer application"
-                university:"Pune university"
-                percentage:""
+                "edu":"MAsters Of computer application",
+                "university":"Pune university",
+                "percentage":""
             },
             {
-                edu:"Bachlors Of computer application"
-                university:"Pune university"
-                percentage:""
+                "edu":"Bachlors Of computer application",
+                "university":"Pune university",
+                "percentage":""
             }
-        ]
-    }
-    work_experiance:{
-        [
+    ],
+    "work_experiance":[
             {
-                company_name:"Gameloft"
-                start_date:
-                end_date:
+                "company_name":"Gameloft",
+                "start_date":"",
+                "end_date":""
 
             },
             {
-                company_name:"Ubisoft"
-                start_date:
-                end_date:
+                "company_name":"Ubisoft",
+                "start_date":"",
+                "end_date":""
             },
             {
-                company_name:"Arkenea"
-                start_date:
-                end_date:
+                "company_name":"Arkenea",
+                "start_date":"",
+                "end_date":""
             },
             {
-                company_name:"Quadlogix"
-                start_date:
-                end_date:
+                "company_name":"Quadlogix",
+                "start_date":"",
+                "end_date":""
             },
             {
-                company_name:"Tagrem"
-                start_date:
-                end_date:
+                "company_name":"Tagrem",
+                "start_date":"",
+                "end_date":""
             },
             {
-                company_name:"Mirum Agency"
-                start_date:
-                end_date:
+                "company_name":"Mirum Agency",
+                "start_date":"",
+                "end_date":""
             }
-        ]
-    }
-    summary:{
+    ],
+    "summary":{
 
-    }
-    Projects:{
-        [
+    },
+    "Projects":[
 
-        ]
-    }
+    ]
 }
 

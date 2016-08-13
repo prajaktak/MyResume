@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="JSE-dX-CNI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="JSE-dX-CNI">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -49,10 +49,13 @@
                         <barButtonItem key="leftBarButtonItem" title="Item" id="nfe-fJ-TrH"/>
                         <barButtonItem key="rightBarButtonItem" title="Item" style="plain" id="PON-Te-DTH"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="resumeLabel" destination="C3T-SM-Xrx" id="d0q-my-NiY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="477" y="301"/>
+            <point key="canvasLocation" x="331" y="315"/>
         </scene>
         <!--Web View Controller-->
         <scene sceneID="bD3-iV-jHl">
