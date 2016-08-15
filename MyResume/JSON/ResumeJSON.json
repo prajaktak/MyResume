@@ -1,6 +1,6 @@
 {
     "name":"Prajakta Kulkarni",
-    "presonal_information":{
+    "contact_info":{
         "name":"Prajakta Kulkarni",
         "Address":"A10 Ramyanagari,bibvewadi, Pune 37",
         "Phone":"9922111481",
@@ -18,7 +18,7 @@
                 "percentage":""
             }
     ],
-    "work_experiance":[
+    "experience":[
             {
                 "company_name":"Gameloft",
                 "start_date":"",
@@ -56,6 +56,12 @@
     },
     "Projects":[
 
+    ],
+    "skills":[
+    ],
+    "affiliations":[
+    ],
+    "publications":[
     ]
 }
 
