@@ -11,6 +11,9 @@
 		A13552E11D43AF85009AD57D /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13552E01D43AF85009AD57D /* AboutViewController.m */; };
 		A13552E41D43AFB1009AD57D /* ContactMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13552E31D43AFB1009AD57D /* ContactMeViewController.m */; };
 		A1F648871D5FB07700684891 /* ResumeJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = A1F648861D5FB07700684891 /* ResumeJSON.json */; };
+		A1F6488B1D680D7600684891 /* ClassResume.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F6488A1D680D7500684891 /* ClassResume.m */; };
+		A1F6488E1D681CEF00684891 /* HCard.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F6488D1D681CEF00684891 /* HCard.m */; };
+		A1F648911D681D5800684891 /* HEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F648901D681D5800684891 /* HEvent.m */; };
 		F969662B1D0216B200D1E016 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F969662A1D0216B200D1E016 /* main.m */; };
 		F969662E1D0216B200D1E016 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F969662D1D0216B200D1E016 /* AppDelegate.m */; };
 		F96966311D0216B200D1E016 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96966301D0216B200D1E016 /* ViewController.m */; };
@@ -48,6 +51,12 @@
 		A13552E21D43AFB1009AD57D /* ContactMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactMeViewController.h; sourceTree = "<group>"; };
 		A13552E31D43AFB1009AD57D /* ContactMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactMeViewController.m; sourceTree = "<group>"; };
 		A1F648861D5FB07700684891 /* ResumeJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ResumeJSON.json; path = JSON/ResumeJSON.json; sourceTree = "<group>"; };
+		A1F648891D680D7400684891 /* ClassResume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassResume.h; sourceTree = "<group>"; };
+		A1F6488A1D680D7500684891 /* ClassResume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassResume.m; sourceTree = "<group>"; };
+		A1F6488C1D681CEF00684891 /* HCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCard.h; sourceTree = "<group>"; };
+		A1F6488D1D681CEF00684891 /* HCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCard.m; sourceTree = "<group>"; };
+		A1F6488F1D681D5800684891 /* HEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEvent.h; sourceTree = "<group>"; };
+		A1F648901D681D5800684891 /* HEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEvent.m; sourceTree = "<group>"; };
 		F96966261D0216B200D1E016 /* MyResume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyResume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F969662A1D0216B200D1E016 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F969662C1D0216B200D1E016 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -136,6 +145,12 @@
 				A13552E01D43AF85009AD57D /* AboutViewController.m */,
 				A13552E21D43AFB1009AD57D /* ContactMeViewController.h */,
 				A13552E31D43AFB1009AD57D /* ContactMeViewController.m */,
+				A1F648891D680D7400684891 /* ClassResume.h */,
+				A1F6488A1D680D7500684891 /* ClassResume.m */,
+				A1F6488C1D681CEF00684891 /* HCard.h */,
+				A1F6488D1D681CEF00684891 /* HCard.m */,
+				A1F6488F1D681D5800684891 /* HEvent.h */,
+				A1F648901D681D5800684891 /* HEvent.m */,
 			);
 			path = MyResume;
 			sourceTree = "<group>";
@@ -302,8 +317,11 @@
 				A13552DE1D43AF4E009AD57D /* ResumeViewController.m in Sources */,
 				F9FCBAB51D2AFDEF00FD60E2 /* WebViewController.m in Sources */,
 				A13552E11D43AF85009AD57D /* AboutViewController.m in Sources */,
+				A1F648911D681D5800684891 /* HEvent.m in Sources */,
 				F96966311D0216B200D1E016 /* ViewController.m in Sources */,
+				A1F6488B1D680D7600684891 /* ClassResume.m in Sources */,
 				F969662E1D0216B200D1E016 /* AppDelegate.m in Sources */,
+				A1F6488E1D681CEF00684891 /* HCard.m in Sources */,
 				F969662B1D0216B200D1E016 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
