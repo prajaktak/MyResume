@@ -10,10 +10,10 @@
 #import "HCard.h"
 @interface ClassResume : NSObject
 
-@property(nonatomic,strong)NSMutableArray *projects;
-@property(nonatomic,strong)NSMutableArray *education;
+//@property(nonatomic,strong)NSMutableArray *projects;//array of events
+@property(nonatomic,strong)NSMutableArray *education;//array of events
 @property(nonatomic,strong)HCard *contact_info;
-@property(nonatomic,strong)NSMutableArray *experience;
+@property(nonatomic,strong)NSMutableArray *experience;//array of events
 @property(nonatomic,strong)NSMutableArray *skills;
 @property(nonatomic,strong)NSMutableArray *affiliations;
 @property(nonatomic,strong)NSMutableArray *publications;

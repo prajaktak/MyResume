@@ -10,6 +10,5 @@
 
 @interface HEvent : NSObject
 
-@property (nonatomic, strong)NSString *FN;
-@property (nonatomic, strong)NSString *N;
+
 @end
